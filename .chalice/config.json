@@ -1,6 +1,10 @@
 {
   "version": "2.0",
   "app_name": "s3-events",
+  "environment_variables": {
+    "APP_BUCKET_NAME": "cxx6sw-access",
+    "DYNAMODB_TABLE_NAME": "access"
+  },
   "stages": {
     "dev": {
       "environment_variables": {
