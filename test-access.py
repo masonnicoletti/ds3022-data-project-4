@@ -6,7 +6,7 @@ import datetime
 import json
 import os
 
-BUCKET_NAME = 'nem2pzy-access'
+BUCKET_NAME = 'cxx6sw-access'
 
 def generate_test_event():
     # event_key is an epoch timestamp for now. Cast as string.
