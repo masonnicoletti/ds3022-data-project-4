@@ -8,7 +8,7 @@
   "stages": {
     "dev": {
       "environment_variables": {
-        "APP_BUCKET_NAME": "BUCKET_NAME",
+        "APP_BUCKET_NAME": "cxx6sw-access",
         "DYNAMODB_TABLE_NAME": "access"
       },
       "lambda_memory_size": 128,
@@ -19,7 +19,7 @@
     },
     "prod": {
       "environment_variables": {
-        "APP_BUCKET_NAME": "BUCKET_NAME_PROD",
+        "APP_BUCKET_NAME": "cxx6sw-access-prod",
         "DYNAMODB_TABLE_NAME": "access-prod"
       },
       "lambda_memory_size": 256,
